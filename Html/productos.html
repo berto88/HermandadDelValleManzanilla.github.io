@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .site-header {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      background: url('img/patron-manton.png') center/cover no-repeat;
+      padding: 10px 20px;
+      box-sizing: border-box;
+    }
+    .site-logo {
+      flex: 0 0 auto;
+      margin-right: 20px;
+    }
+    .site-logo img {
+      max-height: 80px;
+      width: auto;
+    }
+    .nav-menu {
+      flex: 1 1 auto;
+    }
+    .nav-menu ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+    .nav-menu a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.1em;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+    .nav-menu a:hover {
+      background: rgba(0, 0, 0, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-logo">
+      <a href="index.html">
+        <img src="https://via.placeholder.com/120x80?text=Logo" alt="Logo Hermandad">
+      </a>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="productos-grid">
+      <!-- Ejemplo repetido 10 veces -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Camiseta" alt="Camiseta Virgen del Valle">
+        <h3>Camiseta Virgen del Valle</h3>
+        <p>10 € – Camiseta de algodón con estampado de la Virgen.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Taza" alt="Taza Virgen del Valle">
+        <h3>Taza Virgen del Valle</h3>
+        <p>5 € – Taza cerámica blanca con imagen.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Llaveros" alt="Llavero Virgen del Valle">
+        <h3>Llavero Virgen del Valle</h3>
+        <p>3 € – Llavero metálico esmaltado.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Pines" alt="Pin Virgen del Valle">
+        <h3>Pin Virgen del Valle</h3>
+        <p>2 € – Pin esmaltado para solapas o mochilas.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Poster" alt="Póster Virgen del Valle">
+        <h3>Póster Virgen del Valle</h3>
+        <p>8 € – Impreso en A3.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Pegatinas" alt="Pegatinas Virgen del Valle">
+        <h3>Pegatinas</h3>
+        <p>2 € – Pack de 5 pegatinas.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Bolsa" alt="Bolsa Virgen del Valle">
+        <h3>Bolsa Virgen del Valle</h3>
+        <p>7 € – Bolsa de tela reusable 38×42 cm.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Agenda" alt="Agenda Virgen del Valle">
+        <h3>Agenda Virgen del Valle</h3>
+        <p>12 € – Agenda 2025 con portada ilustrada.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Postal" alt="Postal Virgen del Valle">
+        <h3>Postal Virgen del Valle</h3>
+        <p>1 € – Postal A6 ilustrada.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Calendario" alt="Calendario Virgen del Valle">
+        <h3>Calendario Virgen del Valle</h3>
+        <p>6 € – Calendario de pared 2025.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Hermandad Virgen del Valle, Manzanilla</p>
+  </footer>
+</body>
+</html>
