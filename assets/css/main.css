@@ -2266,6 +2266,15 @@ input, select, textarea {
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
 		}
+		#items .highlight img {
+			max-width: 100%;      /* que no exceda el ancho del contenedor */
+			max-height: 200px;    /* límite de altura (ajusta según prefieras) */
+			width: auto;          /* ancho automático para mantener proporción */
+			height: auto;         /* altura automática para mantener proporción */
+			display: block;       /* para evitar espacios extra bajo la imagen */
+			margin: 0 auto 1em;   /* centrar la imagen horizontalmente y separar del texto */
+			object-fit: contain;  /* asegura que la imagen se escale sin cortar */
+		  }
 
 /* Main */
 
